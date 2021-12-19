@@ -11,3 +11,68 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 0 10%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.self-input {
+  width: 100%;
+  padding: 10px 18px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.self-input:focus {
+  width: 100%;
+  border: 3px solid #555;
+}
+
+.self-btn {
+  width: 100%;
+  background-color: rgb(190, 154, 154);
+  color: white;
+  padding: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition-duration: .3s;
+  margin-bottom: 5px;
+}
+.self-btn:hover {
+  background-color: rgb(156, 114, 114);
+}
+
+.self-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.self-table td, .self-table th {
+  border: 1px solid #ddd;
+  padding: 4px;
+} 
+
+.self-table tr:nth-child(even) {
+  background-color:#f2f2f2;
+}
+
+.self-table tr:hover {
+  background-color: #ddd;
+}
+.self-table th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: #c096a4;
+  color: white;
+}
